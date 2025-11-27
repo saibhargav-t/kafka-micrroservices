@@ -1,0 +1,4 @@
+com\kafka\config\TopicsConfig.class
+com\kafka\handler\WikimediaEventHandler.class
+com\kafka\SpringBootProducerApplication.class
+com\kafka\producer\WikimediaChangesProducer.class
