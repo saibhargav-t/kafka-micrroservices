@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.kafka</groupId>
 	<artifactId>kafka-microservices</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version> <!-- Stable version -->
 	<name>Kafka MicroServices</name>
 	<description>Kafka For Microservices</description>
 	<packaging>pom</packaging>

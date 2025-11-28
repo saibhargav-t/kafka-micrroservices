@@ -1,1 +1,5 @@
 com\kafka\SpringConsumerApplication.class
+com\kafka\consumer\KafkaConsumerConfig.class
+com\kafka\entity\WikimediaEntity.class
+com\kafka\dao\impl\DaoImpl.class
+com\kafka\dao\DAO.class
