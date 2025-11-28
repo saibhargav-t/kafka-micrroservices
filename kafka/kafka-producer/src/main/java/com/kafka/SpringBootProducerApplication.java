@@ -15,7 +15,7 @@ public class SpringBootProducerApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootProducerApplication.class);
 	}
-	
+
 	private final WikimediaChangesProducer wikimediaChangesProducer;
 
 	@Override
@@ -23,3 +23,12 @@ public class SpringBootProducerApplication implements CommandLineRunner {
 		wikimediaChangesProducer.sendMessage();
 	}
 }
+
+/**
+ * SpringBootProducerApplication is the main application class that runs the
+ * producer application.
+ * It implements CommandLineRunner to execute the producer logic when the
+ * application starts.
+ * - `wikimediaChangesProducer.sendMessage()`: Sends a message to the Wikimedia
+ * stream.
+ */

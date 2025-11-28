@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.kafka</groupId>
 		<artifactId>kafka-microservices</artifactId>
-			<version>1.0.0</version> <!-- Stable version -->
+		<version>1.0.0</version> <!-- Stable version -->
 	</parent>
 	<artifactId>kafka-producer</artifactId>
 	<properties>
@@ -69,17 +69,20 @@
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
 
+		<!-- OkHttp EventSource library provides client-side support for Server-Sent Events (SSE),
+		allowing the application to receive real-time updates from a server. -->
 		<dependency>
 			<groupId>com.launchdarkly</groupId>
 			<artifactId>okhttp-eventsource</artifactId>
-			<version>4.1.1</version>   <!-- or whatever version you're using -->
+			<version>4.1.1</version>
 		</dependency>
 
-		<!-- OkHttp (this provides okhttp3.HttpUrl) -->
+		<!-- OkHttp: A modern, efficient HTTP client for Java, including URL utilities like
+		okhttp3.HttpUrl. -->
 		<dependency>
 			<groupId>com.squareup.okhttp3</groupId>
 			<artifactId>okhttp</artifactId>
-			<version>4.10.0</version>  <!-- 4.x is fine; you can adjust -->
+			<version>4.10.0</version>
 		</dependency>
 
 

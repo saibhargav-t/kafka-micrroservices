@@ -11,10 +11,10 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @Repository
-public class DaoImpl implements DAO{
+public class DaoImpl implements DAO {
 
 	private final EntityManager entityManager;
-	
+
 	@Override
 	@Transactional
 	public void saveMessage(WikimediaEntity wikimediaEntity) {
@@ -22,3 +22,7 @@ public class DaoImpl implements DAO{
 	}
 
 }
+/**
+ * DaoImpl is a class that implements the DAO interface.
+ * It uses the EntityManager to persist messages to the database.
+ */

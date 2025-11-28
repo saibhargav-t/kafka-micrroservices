@@ -17,3 +17,10 @@ public class TopicsConfig {
 		return TopicBuilder.name("wikimedia").partitions(3).build();
 	}
 }
+
+/**
+ * TopicsConfig is a configuration class that defines a Kafka topic for
+ * Wikimedia changes.
+ * It uses the NewTopic bean to create a topic named "wikimedia" with 3
+ * partitions.
+ */
